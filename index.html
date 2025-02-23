@@ -4,27 +4,26 @@
     <meta charset="UTF-8">
     <meta name="BEM" content="width=device-width, initial-scale=1.0">
     <title>Metodología BEM</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1 id="titulo1">Metodología-BEM</h1>
-    <h2 id="subtitulo1">¿Que es BEM?</h2>
-    <p>BEM es una metodologia que se fundamenta en el diseño y organizacion de las clases de css <br>Donde su principal objetivo es hacer que el codigo sea mas legible reutilizable y mantenible.</p>
-    <p>-Si quieres obtener mas info solo da click <span><a href="info+.html">Aqui</a></span>
-    <hr>
-<ol type="1" start="1">
-        <h1>conceptos</h1>
-        <p>-El BEM se basa en 3 conceptos</p>
-        <li>Block (Bloque)</li>
-        <li>Element (Elemento)</li>
-        <li>Modifier (Modificador)</li>
-    </ol>
-    <hr>
-    <h1>Block (Bloque)</h1>
-    <p>El Bloque es el componente principal pues total-mente autonomo y se puede entender por si mismo. los bloques pueden ser algo tan grande como un formulario o muy pequeño como un boton</p>
-    <img src="" alt="">
-    <h1>Element (Elemento)</h1>
-    <p>El elemento es una parte del bloque Es algo que no tiene sentido por sí mismo y solo cobra significado dentro del bloque<br>Un elemento siempre pertenece a un bloque. Piensa en los elementos como las partes de un bloque.<br>El nombre del elemento se conecta con el nombre del bloque usando dos guiones bajos (__).</p>
-    <h1>Modifier (Modificador)</h1>
-    <p>El modificador es una variación de un bloque o un elemento. Usamos modificadores cuando queremos cambiar o variar la apariencia, el estado o el comportamiento de un bloque o un elemento sin duplicar el código. <br> Los modificadores permiten crear diferentes versiones de un mismo componente (por ejemplo, un botón que tiene diferentes colores o tamaños). <br> Los modificadores se nombran con dos guiones (--) después del nombre del bloque o elemento.</p>
-</body>
+    <form>
+        <h2>Hola, Bienvenido!</h2>
+        <li>Para poder ingresar es necesario completar los espacios vacios. Recuerda esto lo hacemos por tu seguridad!! </li>
+        <div class="form_input">
+            <label>Nombre completo</label>
+            <input type="text" placeholder="Nombre completo">
+        </div>
+        <div class="form_input">
+            <label>Email</label>
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="form_input">
+            <label>Acepto los terminos y condiciones.</label>
+                <input type="checkbox" class="checkbox">
+        </div>
+        <p>Si llenaste todos los datos y quieres acceder a la informacion sobre la metodologia-BEM oprime <span id="aqui"><a href="pagina_principal.html">Continuar</a></span>
+    </form>
+    </body>
 </html> 
+
