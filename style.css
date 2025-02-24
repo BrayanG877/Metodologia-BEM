@@ -43,6 +43,29 @@ input {
 .checkbox {
     width: auto;
 }
+.wrapper {
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.boton {
+    padding: 5px 15px;
+    background-color: transparent;
+    border: 1px solid rgb(20, 18, 18);
+    color: rgb(54, 48, 48);
+    border-radius: 5px;   
+}
+.boton:hover {
+    color: deepskyblue;
+    border-color: deepskyblue;
+    box-shadow: 0px 0px 5px deepskyblue;
+    text-shadow: 0px 0px 5px deepskyblue;
+
+}
+#body pagina_principal {
+    background-color: #666;
+
+}
 #subtitulo1 {
     color: deepskyblue; border-style: solid;
     font-family: 'Courier New', Courier, monospace;
@@ -59,10 +82,8 @@ input {
     font-style: italic; /*estilo de letra*/
     text-align: center; /*poner lado donde comienza la letra*/
     }
-h
+#
 /* reutilizable
 #info {
     text-decoration:underline  ; ponerle rayita a las letras
-}/*
-
-
+} */
