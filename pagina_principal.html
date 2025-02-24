@@ -4,26 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pagina_principal</title>
+    <link rel="stylesheet" href="style1.css" />
 </head>
-<body>
+<body id="pagina_principal">
     <h1 id="titulo1">Metodología-BEM</h1>
-    <h2 id="subtitulo1"><strong>¿Que es BEM?</strong></h2>
+    <h2 id="titulo1"><strong>¿Que es BEM?</strong></h2>
     <p id="bem"><strong>BEM</strong> es una metodologia que se fundamenta en el diseño y organizacion de las clases de css <br>Donde su principal objetivo es hacer que el codigo sea mas legible reutilizable y mantenible.</p>
     <hr>
 <ol type="1" start="1">
-        <h1>conceptos</h1>
+        <h1 id="titulo1">conceptos</h1>
         <p>-El BEM se basa en 3 conceptos</p>
         <li>Block (Bloque)</li>
         <li>Element (Elemento)</li>
         <li>Modifier (Modificador)</li>
     </ol>
     <hr>
-    <h1>Block (Bloque)</h1>
+    <h1 id="titulo1">Block (Bloque)</h1>
     <p>El Bloque es el componente principal pues total-mente autonomo y se puede entender por si mismo. los bloques pueden ser algo tan grande como un formulario o muy pequeño como un boton</p>
-    <img src="" alt="">
-    <h1>Element (Elemento)</h1>
+    <button class="button button--primary button--large">
+        <span class="button__icon"></span> Click aquí
+      </button>
+    <p>Ahora un ejemplo ilustrativo de como se ve esto en codigo seria tipo asi:</p>
+    <h3 id="titulo1">HTML</h3>
+    <img id="imagen1" src="imagenes/boton html.png">
+    <h3 id="titulo1">CSS</h3>
+    <img src="imagenes/boton css.png">
+    <hr>
+    <h1 id="titulo1">Element (Elemento)</h1>
     <p>El elemento es una parte del bloque Es algo que no tiene sentido por sí mismo y solo cobra significado dentro del bloque<br>Un elemento siempre pertenece a un bloque. Piensa en los elementos como las partes de un bloque.<br>El nombre del elemento se conecta con el nombre del bloque usando dos guiones bajos (__).</p>
-    <h1>Modifier (Modificador)</h1>
-    <p>El modificador es una variación de un bloque o un elemento. Usamos modificadores cuando queremos cambiar o variar la apariencia, el estado o el comportamiento de un bloque o un elemento sin duplicar el código. <br> Los modificadores permiten crear diferentes versiones de un mismo componente (por ejemplo, un botón que tiene diferentes colores o tamaños). <br> Los modificadores se nombran con dos guiones (--) después del nombre del bloque o elemento.</p>    
-</body>
+    <div class="card card--highlighted">
+        <h2 class="card__title">Título de la tarjeta</h2>
+        <p class="card__content">Contenido de la tarjeta.</p>
+      </div>
+    <p>Ahora un ejemplo ilustrativo de como se ve esto en codigo seria tipo asi:</p>
+    <h3 id="titulo1">HTML</h3>
+    <img src="imagenes/element html.png">
+    <h3 id="titulo1">CSS</h3>
+    <img src="imagenes/element css.png" alt="">
+    <hr>
+    <h1 id="titulo1">Modifier (Modificador)</h1>
+    <p>El modificador es una variación de un bloque o un elemento. Usamos modificadores cuando queremos cambiar o variar la apariencia, el estado o el comportamiento de un bloque o un elemento sin duplicar el código. <br> Los modificadores permiten crear diferentes versiones de un mismo componente (por ejemplo, un botón que tiene diferentes colores o tamaños). <br> Los modificadores se nombran con dos guiones (--) después del nombre del bloque o elemento.</p>
+    <p>Ahora un ejemplo ilustrativo de como se ve esto en codigo seria tipo asi:</p>
+    <form class="form">
+        <input type="text" class="form__input form__input--error" placeholder="Ingresa tu nombre">
+        <button class="form__button">Enviar</button>
+      </form>
+    <h3 id="titulo1">HTML</h3>
+    <img src="imagenes/modifier html.png">
+    <h3 id="titulo1">CSS</h3>
+    <img src="imagenes/modifier css.png">
+    </body>
 </html>
