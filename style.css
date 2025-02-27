@@ -53,7 +53,8 @@ input {
     background-color: transparent;
     border: 1px solid rgb(20, 18, 18);
     color: rgb(54, 48, 48);
-    border-radius: 5px;   
+    border-radius: 5px;
+    margin-top: auto; 
 }
 .boton:hover {
     color: deepskyblue;
@@ -82,4 +83,7 @@ input {
     font-style: italic; /*estilo de letra*/
     text-align: center; /*poner lado donde comienza la letra*/
     }
+a {
+    color:deepskyblue
+}
     
