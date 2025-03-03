@@ -155,4 +155,27 @@ nav a {
 aside, main {
   border: 1px solid red;
 }
-
+#cuadro {
+  background-color: aqua;
+  width: 400px;
+  height: 150px;
+  transition: width 1s;
+  transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+}
+#cuadro:hover {
+  width:  900px;
+  background-color: yellow;
+  transition: width 600ms 10ms;
+}
+#boton {
+  background-color: aqua;
+  width: 100px;
+  height: 150px;
+  transition: width 1s;
+  transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+}
+#boton:hover {
+  width:  900px;
+  background-color: yellow;
+  transition: width 600ms 10ms;
+}
