@@ -2,7 +2,6 @@ body {
     background-color: rgba(0, 0, 0, 0.808);
     margin: 0;
     font-family: cursive;
-    
     color: rgba(255, 255, 255, 0.904);
 }
 .button {
@@ -10,12 +9,13 @@ body {
     border: none;
     cursor: pointer;
     font-size: 16px;
-  }
+  
+}
   
   /* Elemento */
   .button__icon {
     margin-right: 5px;
-  }
+ }
   
   /* Modificadores */
   .button--primary {
@@ -23,18 +23,18 @@ body {
     color: white;
     box-shadow: 0px 0px 15px rgb(2, 2, 218);
     border-radius: 5px;
-  }
+ }
   .card {
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 5px;
-  }
+ }
   
   /* Elementos */
   .card__title {
     font-size: 18px;
     font-weight: bold;
-  }
+ }
   
   .card__content {
     font-size: 14px;
@@ -73,7 +73,8 @@ body {
   .form__input--error {
     border-color: rgb(0, 201, 252);
     background-color: #ffffff;
-  }
+ }
+
 #titulo1 {
     text-shadow:0px 0px 15px yellow;
 }
@@ -83,13 +84,13 @@ body {
   padding: 10px;
   list-style-type: lower-greek;
   
-  }
+ }
   li::marker {
     color: rgb(0, 201, 252);
     text-transform: uppercase;
     text-shadow: 0px 0px 15px rgb(0, 236, 253);
   }
-  .wrapper {
+ .wrapper {
     display: inline;
     margin-left:10px;
     justify-content: space-between;
@@ -109,8 +110,8 @@ body {
   box-shadow: 0px 0px 15px deepskyblue;
   text-shadow: 0px 0px 15px rgb(180, 158, 158);
 }
-/* header */
-.header {
+
+.header {       /* header */
   background-color: deepskyblue;
   box-shadow: 0px 0px 15px deepskyblue;
   border: 1px solid #020202;
