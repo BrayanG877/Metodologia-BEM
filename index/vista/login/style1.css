@@ -17,6 +17,7 @@ form {
   border-bottom-width: 2px;
   border-bottom-style:solid ;
   border-bottom-color: #b3b3b3;
+  
 }
 #titulo1 {
   text-align: center;
@@ -110,4 +111,23 @@ input, select {
 }
 .checkbox {
   width: 45px;
+}
+.icon {
+  width: 80px;
+  border-radius: 50px;
+}
+#usuario {
+  position: relative;
+  top: -140px;
+  left: 70px;
+}
+#cerrar-sesion {
+  position: relative;
+  top: -160px;
+  left: 70px;
+  color: #868686;
+}
+#container {
+  position: relative;
+  top: -70px;
 }

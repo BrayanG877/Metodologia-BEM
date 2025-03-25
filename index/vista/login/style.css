@@ -51,4 +51,8 @@ input {
 .checkbox {
     width: 15px;
 }
-
+.box {
+    position: relative;
+    left: 110px;
+    justify-content: center;
+}
